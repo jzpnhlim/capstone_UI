@@ -17,11 +17,11 @@ class BoxTxt  extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 4.0),
-      constraints: BoxConstraints.expand(height:55.0),
+      padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
+      //constraints: BoxConstraints.expand(height:55.0),
       decoration: BoxDecoration(
           color: Colors.white,
-          //border: Border.all(color:Colors.brown),
+          border: Border.all(color:Colors.grey),
 
       ),
       child: Text(_txt,style: Theme.of(context).textTheme.title),

@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       floatingActionButton:FloatingActionButton.extended(
         onPressed: ()=>pageToThird(context, (washRoom).first),
-        label: Text("               WASHROOM  GO                ",
+        label: Text("         WASHROOM  GO           ",
             style: Theme.of(context).textTheme.title,),
         backgroundColor: Colors.amber,
       ),
@@ -164,7 +164,12 @@ class ThirdScreen extends StatefulWidget {
 
 class _ThirdScreenState extends State<ThirdScreen> {
   final FlutterTts flutterTts = FlutterTts();
-
+  var i,j;
+  List<String> k = ["You are at ROOM 113.",
+    "Walk north on the walkway for less than 10 meters. Then Turn left onto the walkway.",
+    "Turn left onto the walkway. Then Turn right onto the walkway.",
+    "Turn right onto the walkway. Then You will arrive at your destination."
+        "You have arrived at your destination."];
   Future<List<Maneuver>> mans;
   String _assetloc = 'assets/json_examples/valhalla_output_113-102.json';
 
@@ -180,19 +185,23 @@ class _ThirdScreenState extends State<ThirdScreen> {
 //    }
     return FutureBuilder(
       builder: (context,jsonSnap) {
+
         if (jsonSnap.data == null) {
           return Container(
             child: BoxTxt('loading ..'),
           );
 
         } else {
-
           return ListView.builder(
               itemCount: jsonSnap.data.length,
               itemBuilder: (context, index) {
                 return GestureDetector(
                   child: BoxTxt(jsonSnap.data[index].instruction),
-                  onTap: (){},
+                  onTap: (){
+//                    final snackBar = SnackBar(content: Text(k[j]));
+//                    j=j+1;
+//                    Scaffold.of(context).showSnackBar(snackBar);
+                  },
 
                 );
               });
@@ -208,11 +217,30 @@ class _ThirdScreenState extends State<ThirdScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('ROUTE TO ' + roomDetail(widget._roomid)),
+//        leading: IconButton(
+//          icon:Icon(Icons.account_box),
+//          onPressed: (){
+//            final snackBar = SnackBar(content: Text(k[j]));
+//            j=j+1;
+//            Scaffold.of(context).showSnackBar(snackBar);
+//          },
+//        ),
         textTheme: TextTheme(title: longAppBarStyle),
+
       ),
 
       body: jsonDisplay(),
 
+//      floatingActionButton:FloatingActionButton.extended(
+//      onPressed: (){
+//          if(j<i)i++;
+//
+//      },
+//      label: Text(k[i].instruction,
+//      style: Theme.of(context).textTheme.title,),
+//      backgroundColor: Colors.amber,
+//
+//    )
     );
   }
 }
