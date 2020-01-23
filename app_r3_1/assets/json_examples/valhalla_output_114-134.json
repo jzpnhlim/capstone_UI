@@ -1,0 +1,128 @@
+{
+  "trip": {
+    "language": "en-US",
+    "status": 0,
+    "units": "kilometers",
+    "status_message": "Found route between points",
+    "legs": [
+      {
+        "shape": "gjhoqAdz}lwC]?O??|@?l@?l@kA?}@?]L{A?e@?e@?Fl@?\\?jB?jA?zA?l@FhB?l@O?cA?",
+        "summary": {
+          "max_lon": -79.920563,
+          "max_lat": 43.258774,
+          "time": 38,
+          "length": 0.054,
+          "min_lat": 43.258549,
+          "min_lon": -79.920921
+        },
+        "maneuvers": [
+          {
+            "travel_type": "foot",
+            "time": 2,
+            "type": 1,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Walk north on the walkway for less than 10 meters. Then Turn left onto the walkway.",
+            "instruction": "Walk north on the walkway.",
+            "end_shape_index": 2,
+            "length": 0.003,
+            "begin_shape_index": 0,
+            "rough": true,
+            "travel_mode": "pedestrian"
+          },
+          {
+            "travel_type": "foot",
+            "travel_mode": "pedestrian",
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Turn left onto the walkway. Then Turn right onto the walkway.",
+            "verbal_transition_alert_instruction": "Turn left onto the walkway.",
+            "length": 0.006,
+            "instruction": "Turn left onto the walkway.",
+            "end_shape_index": 5,
+            "type": 15,
+            "time": 4,
+            "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+            "begin_shape_index": 2,
+            "rough": true
+          },
+          {
+            "travel_type": "foot",
+            "travel_mode": "pedestrian",
+            "verbal_pre_transition_instruction": "Turn right onto the walkway.",
+            "verbal_transition_alert_instruction": "Turn right onto the walkway.",
+            "length": 0.018,
+            "instruction": "Turn right onto the walkway.",
+            "end_shape_index": 11,
+            "type": 10,
+            "time": 12,
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "begin_shape_index": 5,
+            "rough": true
+          },
+          {
+            "travel_type": "foot",
+            "travel_mode": "pedestrian",
+            "verbal_pre_transition_instruction": "Turn left onto the walkway.",
+            "verbal_transition_alert_instruction": "Turn left onto the walkway.",
+            "length": 0.022,
+            "instruction": "Turn left onto the walkway.",
+            "end_shape_index": 19,
+            "type": 15,
+            "time": 15,
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "begin_shape_index": 11,
+            "rough": true
+          },
+          {
+            "travel_type": "foot",
+            "travel_mode": "pedestrian",
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Turn right onto the walkway. Then You will arrive at your destination.",
+            "verbal_transition_alert_instruction": "Turn right onto the walkway.",
+            "length": 0.005,
+            "instruction": "Turn right onto the walkway.",
+            "end_shape_index": 21,
+            "type": 10,
+            "time": 3,
+            "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+            "begin_shape_index": 19,
+            "rough": true
+          },
+          {
+            "travel_type": "foot",
+            "travel_mode": "pedestrian",
+            "begin_shape_index": 21,
+            "time": 0,
+            "type": 4,
+            "end_shape_index": 21,
+            "instruction": "You have arrived at your destination.",
+            "length": 0,
+            "verbal_transition_alert_instruction": "You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "You have arrived at your destination."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "max_lon": -79.920563,
+      "max_lat": 43.258774,
+      "time": 38,
+      "length": 0.054,
+      "min_lat": 43.258549,
+      "min_lon": -79.920921
+    },
+    "locations": [
+      {
+        "original_index": 0,
+        "lon": -79.92057,
+        "lat": 43.258549,
+        "type": "break"
+      },
+      {
+        "original_index": 1,
+        "lon": -79.920914,
+        "lat": 43.258778,
+        "type": "break"
+      }
+    ]
+  }
+}

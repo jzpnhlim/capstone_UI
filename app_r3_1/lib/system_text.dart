@@ -3,11 +3,11 @@
 import 'package:flutter/material.dart';
 
 
-const officeRoom = ['124','135'];
+const officeRoom = ['102','113','135'];
 const washRoom = ['116','166','145','175'];
-const lectureRoom = ['110','111',
+const lectureRoom = ['111',
   '114','115','117','136','167','154',
-  '105','104','103','102'
+  '105','104','103'
 ];
 List<String> roomlist=officeRoom+washRoom+lectureRoom;
 class BoxTxt  extends StatelessWidget {

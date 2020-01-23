@@ -1,0 +1,84 @@
+{
+  "trip": {
+    "language": "en-US",
+    "status": 0,
+    "units": "kilometers",
+    "status_message": "Found route between points",
+    "legs": [
+      {
+        "shape": "}uhoqAde~lwC?jA?zA?l@FhB?l@O?cA?_@?",
+        "summary": {
+          "max_lon": -79.920738,
+          "max_lat": 43.258789,
+          "time": 15,
+          "length": 0.022,
+          "min_lat": 43.258732,
+          "min_lon": -79.920921
+        },
+        "maneuvers": [
+          {
+            "travel_type": "foot",
+            "travel_mode": "pedestrian",
+            "rough": true,
+            "begin_shape_index": 0,
+            "length": 0.015,
+            "end_shape_index": 5,
+            "instruction": "Walk west on the walkway.",
+            "verbal_pre_transition_instruction": "Walk west on the walkway for 20 meters.",
+            "type": 1,
+            "time": 10
+          },
+          {
+            "travel_type": "foot",
+            "travel_mode": "pedestrian",
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Turn right onto the walkway. Then You will arrive at your destination.",
+            "verbal_transition_alert_instruction": "Turn right onto the walkway.",
+            "length": 0.007,
+            "instruction": "Turn right onto the walkway.",
+            "end_shape_index": 8,
+            "type": 10,
+            "time": 4,
+            "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+            "begin_shape_index": 5,
+            "rough": true
+          },
+          {
+            "travel_type": "foot",
+            "travel_mode": "pedestrian",
+            "begin_shape_index": 8,
+            "time": 0,
+            "type": 4,
+            "end_shape_index": 8,
+            "instruction": "You have arrived at your destination.",
+            "length": 0,
+            "verbal_transition_alert_instruction": "You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "You have arrived at your destination."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "max_lon": -79.920738,
+      "max_lat": 43.258789,
+      "time": 15,
+      "length": 0.022,
+      "min_lat": 43.258732,
+      "min_lon": -79.920921
+    },
+    "locations": [
+      {
+        "original_index": 0,
+        "lon": -79.920738,
+        "lat": 43.258728,
+        "type": "break"
+      },
+      {
+        "original_index": 1,
+        "lon": -79.920937,
+        "lat": 43.258793,
+        "type": "break"
+      }
+    ]
+  }
+}

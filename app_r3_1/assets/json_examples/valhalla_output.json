@@ -125,52 +125,6 @@
             "length": 0,
             "verbal_transition_alert_instruction": "You will arrive at your destination.",
             "verbal_pre_transition_instruction": "You have arrived at your destination."
-          },
-          {
-            "travel_type": "foot",
-            "travel_mode": "pedestrian",
-            "begin_shape_index": 46,
-            "time": 0,
-            "type": 4,
-            "end_shape_index": 46,
-            "instruction": "You have arrived at your destination.",
-            "length": 0,
-            "verbal_transition_alert_instruction": "You will arrive at your destination.",
-            "verbal_pre_transition_instruction": "You have arrived at your destination."
-          },
-          {
-            "travel_type": "foot",
-            "travel_mode": "pedestrian",
-            "begin_shape_index": 46,
-            "time": 0,
-            "type": 4,
-            "end_shape_index": 46,
-            "instruction": "You have arrived at your destination.",
-            "length": 0,
-            "verbal_transition_alert_instruction": "You will arrive at your destination.",
-            "verbal_pre_transition_instruction": "You have arrived at your destination."
-          },          {
-            "travel_type": "foot",
-            "travel_mode": "pedestrian",
-            "begin_shape_index": 46,
-            "time": 0,
-            "type": 4,
-            "end_shape_index": 46,
-            "instruction": "You have arrived at your destination.",
-            "length": 0,
-            "verbal_transition_alert_instruction": "You will arrive at your destination.",
-            "verbal_pre_transition_instruction": "You have arrived at your destination."
-          },          {
-            "travel_type": "foot",
-            "travel_mode": "pedestrian",
-            "begin_shape_index": 46,
-            "time": 0,
-            "type": 4,
-            "end_shape_index": 46,
-            "instruction": "You have arrived at your destination.",
-            "length": 0,
-            "verbal_transition_alert_instruction": "You will arrive at your destination.",
-            "verbal_pre_transition_instruction": "You have arrived at your destination."
           }
         ]
       }

@@ -1,0 +1,366 @@
+{
+    "geocoding":
+    {
+        "version": "0.2",
+        "attribution": "http://localhost:4000/attribution",
+        "query":
+        {
+            "text": "Information Technology Building 128 Doorway",
+            "size": 10,
+            "private": false,
+            "lang":
+            {
+                "name": "English",
+                "iso6391": "en",
+                "iso6393": "eng",
+                "defaulted": true
+            },
+            "querySize": 20,
+            "parser": "pelias",
+            "parsed_text":
+            {
+                "subject": "Information Technology Building 128 Doorway"
+            }
+        },
+        "engine":
+        {
+            "name": "Pelias",
+            "author": "Mapzen",
+            "version": "1.0"
+        },
+        "timestamp": 1579733707314
+    },
+    "type": "FeatureCollection",
+    "features": [
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.920933, 43.258791]
+        },
+        "properties":
+        {
+            "id": "node/250",
+            "gid": "openstreetmap:venue:node/250",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/250",
+            "name": "Information Technology Building 128 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building 128 Doorway, Hamilton, ON, Canada"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.920945, 43.258859]
+        },
+        "properties":
+        {
+            "id": "node/246",
+            "gid": "openstreetmap:venue:node/246",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/246",
+            "name": "Information Technology Building 132 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building 132 Doorway, Hamilton, ON, Canada"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.92092, 43.258723]
+        },
+        "properties":
+        {
+            "id": "node/254",
+            "gid": "openstreetmap:venue:node/254",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/254",
+            "name": "Information Technology Building 125 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building 125 Doorway, Hamilton, ON, Canada"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.920673, 43.258721]
+        },
+        "properties":
+        {
+            "id": "node/262",
+            "gid": "openstreetmap:venue:node/262",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/262",
+            "name": "Information Technology Building 119 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building 119 Doorway, Hamilton, ON, Canada"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.920611, 43.258837]
+        },
+        "properties":
+        {
+            "id": "node/294",
+            "gid": "openstreetmap:venue:node/294",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/294",
+            "name": "Information Technology Building 101 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building 101 Doorway, Hamilton, ON, Canada"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.921329, 43.258927]
+        },
+        "properties":
+        {
+            "id": "node/562",
+            "gid": "openstreetmap:venue:node/562",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/562",
+            "name": "Information Technology Building 149 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building 149 Doorway, Hamilton, ON, Canada"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.921225, 43.258549]
+        },
+        "properties":
+        {
+            "id": "node/657",
+            "gid": "openstreetmap:venue:node/657",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/657",
+            "name": "Information Technology Building A104 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building A104 Doorway, Hamilton, ON, Canada"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.920674, 43.258891]
+        },
+        "properties":
+        {
+            "id": "node/215",
+            "gid": "openstreetmap:venue:node/215",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/215",
+            "name": "Information Technology Building 184 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building 184 Doorway, Hamilton, ON, Canada"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.920915, 43.258859]
+        },
+        "properties":
+        {
+            "id": "node/244",
+            "gid": "openstreetmap:venue:node/244",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/244",
+            "name": "Information Technology Building 133 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building 133 Doorway, Hamilton, ON, Canada"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [-79.920988, 43.258837]
+        },
+        "properties":
+        {
+            "id": "node/247",
+            "gid": "openstreetmap:venue:node/247",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "source_id": "node/247",
+            "name": "Information Technology Building 131 Doorway",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "country": "Canada",
+            "country_gid": "whosonfirst:country:85633041",
+            "country_a": "CAN",
+            "region": "Ontario",
+            "region_gid": "whosonfirst:region:85682057",
+            "region_a": "ON",
+            "county": "Hamilton",
+            "county_gid": "whosonfirst:county:890456341",
+            "locality": "Hamilton",
+            "locality_gid": "whosonfirst:locality:101735515",
+            "continent": "North America",
+            "continent_gid": "whosonfirst:continent:102191575",
+            "label": "Information Technology Building 131 Doorway, Hamilton, ON, Canada"
+        }
+    }],
+    "bbox": [-79.921329, 43.258549, -79.920611, 43.258927]
+}

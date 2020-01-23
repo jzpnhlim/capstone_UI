@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle,WhitelistingTextInputFormatter;
-import 'dart:convert';
-import 'dart:async' show Future;
+import 'package:flutter/services.dart' show WhitelistingTextInputFormatter;
+
 import 'package:retina_app/system_text.dart';
 import 'main.dart';
 import 'json_valhalla.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
+
+String url;
 
 pageToSecond(BuildContext context, int roomPageID){
   Navigator.pushNamed(context, secondPage,arguments: {'id': roomPageID});
@@ -162,28 +163,26 @@ class ThirdScreen extends StatefulWidget {
 }
 
 class _ThirdScreenState extends State<ThirdScreen> {
-    final FlutterTts flutterTts = FlutterTts();
-    Future<List<Maneuver>> loadJsonAsset() async{
-      var jsonTxt = await rootBundle.loadString('assets/json_examples/valhalla_output.json');
-      Map<String, dynamic> jsonResponse = json.decode(jsonTxt);
-      ValhallaOutput valData = ValhallaOutput.fromJson(jsonResponse);
-      Trip trip = valData.trip;
-      List<Leg> legs = trip.legs;
-      return legs[0].maneuvers;
+  final FlutterTts flutterTts = FlutterTts();
 
-    }
+  Future<List<Maneuver>> mans;
+  String _assetloc = 'assets/json_examples/valhalla_output_113-102.json';
 
+  @override
+  void initState(){
+    super.initState();
+    mans = loadJsonAsset(_assetloc);
+  }
 
   Widget jsonDisplay(){
 //    Future _speak(String text) async{
 //      await flutterTts.speak(text);
 //    }
-
     return FutureBuilder(
       builder: (context,jsonSnap) {
         if (jsonSnap.data == null) {
           return Container(
-            child: Text('loading ..'),
+            child: BoxTxt('loading ..'),
           );
 
         } else {
@@ -200,7 +199,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
         }
 
       },
-      future: loadJsonAsset(),
+      future: mans,
     );
   }
   @override
