@@ -196,7 +196,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
               itemCount: jsonSnap.data.length,
               itemBuilder: (context, index) {
                 return GestureDetector(
-                  child: BoxTxt(jsonSnap.data[index].instruction),
+                  child: BoxTxt("${jsonSnap.data[index].instruction} for ${(jsonSnap.data[index].length*1000).toString()} meters"),
                   onTap: (){
 //                    final snackBar = SnackBar(content: Text(k[j]));
 //                    j=j+1;
